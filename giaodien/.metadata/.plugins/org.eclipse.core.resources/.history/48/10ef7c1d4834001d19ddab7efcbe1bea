@@ -1,0 +1,13 @@
+package view;
+
+import javax.swing.JFrame;
+
+public class bai1 {
+public static void main(String[] args) {
+		JFrame jf = new JFrame(); 
+		jf.setSize(600,400); 
+		
+		// hiển thị màn hình
+		jf.setVisible(true);
+	}
+}

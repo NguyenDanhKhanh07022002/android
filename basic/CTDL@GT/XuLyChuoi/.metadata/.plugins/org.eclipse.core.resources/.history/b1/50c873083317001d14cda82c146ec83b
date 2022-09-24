@@ -1,0 +1,13 @@
+
+public class vidu {
+	public static void main(String[] args) {
+		String s1 = "xin chao co chu , xin chao cac ban , xin chao!"; 
+		String s2 = "xin chao"; 
+		String s3 = "xin chao 123"; 
+		char c1 = 'o'; 
+		
+		// Hàm indexOf
+		System.out.println("Vị trí của s2 trong s1 là: "+ s1.indexOf(s2));
+		System.out.println("Vị trí của s3 trong s1 là: "+ s1.indexOf(s3));
+	}
+}

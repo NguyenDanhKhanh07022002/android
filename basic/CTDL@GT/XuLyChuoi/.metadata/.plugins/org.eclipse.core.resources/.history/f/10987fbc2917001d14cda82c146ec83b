@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class vidu {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);  
+		String s ; 
+		System.out.println("nhap vao chuoi :");
+		s = sc.nextLine(); 
+		System.out.println("--------");
+		// hàm length() => lấy độ dài của chuỗi 
+		System.out.println(s.length());
+		int dodai = s.length(); 
+	}
+}

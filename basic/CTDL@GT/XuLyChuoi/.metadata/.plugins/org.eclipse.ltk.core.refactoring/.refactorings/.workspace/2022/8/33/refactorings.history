@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename Java project &apos;coppy mảng&apos; to &apos;coppyarray&apos;&#x0D;&#x0A;- Original element: &apos;coppy mảng&apos;&#x0D;&#x0A;- Renamed element: &apos;coppy mảng&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename Java project &apos;coppy mảng&apos;" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=coppy mảng" name="coppyarray" references="true" stamp="1660045694437" version="1.0"/>
+</session>

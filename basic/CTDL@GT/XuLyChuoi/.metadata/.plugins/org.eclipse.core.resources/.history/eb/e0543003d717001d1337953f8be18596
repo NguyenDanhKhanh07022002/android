@@ -1,0 +1,14 @@
+import java.util.Arrays;
+
+public class vidu {
+	public static void main(String[] args) {
+		// kiểu nguyên thủy 
+		int[] mang1 = {1,2,3}; 
+		
+		// coppy mảng cách 1 :: cách này ko làm biến đổi đi mang1
+		int[] mang1_a = mang1 ; 
+		mang1_a[0] = 100; 
+		System.out.println("mang 1 : " + Arrays.toString(mang1));
+		
+	}
+}

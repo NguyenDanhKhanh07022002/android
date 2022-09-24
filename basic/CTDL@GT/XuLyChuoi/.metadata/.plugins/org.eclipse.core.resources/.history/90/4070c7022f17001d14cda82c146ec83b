@@ -1,0 +1,17 @@
+
+public class vidu {
+		public static void main(String[] args) {
+			String s1 = "nguyen danh khanh"; 
+			String s2 = "nguyen danh khanh"; 
+			String s3 = "nguyen danh Khanh";
+			
+			//ham equals => so sánh 2 chuỗi giống nhau , có phân biệt chữ hoa chữ thường
+			//ham trả về true ỏ false
+			System.out.println("s1 equals s2" + ":"+ s1.equals(s2));
+			System.out.println("s1 equals s3" + ":"+ s1.equals(s3));
+			// Hàm equalsIgnoreCase, so sánh 2 chuỗi giống nhau, ko phân biệt hoa thường
+			System.out.println("s1 equalsIgnoreCase s2" + " : " + s1.equalsIgnoreCase(s2));
+			System.out.println("s1 equalsIgnoreCase s3" + " : " + s1.equalsIgnoreCase(s3));
+
+	}
+}

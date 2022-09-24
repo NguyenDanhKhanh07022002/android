@@ -1,0 +1,11 @@
+
+public class vidu {
+		public static void main(String[] args) {
+			String s1 = "nguyen danh khanh"; 
+			String s2 = "nguyen danh khanh"; 
+			String s3 = "nguyen danh son";
+			
+			//ham equals => so sánh 2 chuỗi giống nhau , có phân biệt chữ hoa chữ thường 
+			System.out.println("s1 equals s2" + ":"+ s1.equals(s2));
+	}
+}
